@@ -1,0 +1,538 @@
+<!DOCTYPE html> 
+<html dir="ltr" lang="pt-PT">
+<head> 
+<title>Página de entrada do Acessibilidade.gov.pt</title> 
+<meta content="text/html; charset=UTF-8" http-equiv="content-type" />
+<meta content="initial-scale=1.0, width=device-width" name="viewport" /> 
+
+<meta name="description" content="O sítio para a divulgação, partilha e promoção das melhores práticas de acessibilidade para conteúdos Web e aplicações móveis." />
+<meta name="robots" content="index, follow" />
+
+<meta property="og:type" content="website" /> 
+<meta property="og:locale" content="pt_PT" /> 
+<meta property="og:site_name" content="Acessibilidade.gov.pt" /> 
+<meta property="og:title" content="Página de entrada do Acessibilidade.gov.pt" /> 
+<meta property="og:description" content="O sítio para a divulgação, partilha e promoção das melhores práticas de acessibilidade para conteúdos Web e aplicações móveis." /> 
+<meta property="og:url" content="http://www.acessibilidade.gov.pt/" /> 
+<meta property="og:image" content="http://www.acessibilidade.gov.pt/img/acessibilidade-gov-pt-og.jpg" /> 
+<meta property="og:image:alt" content="imagem com o texto acessibilidade.gov.pt" />
+	
+<link href="https://fonts.googleapis.com/css?family=Lato:400,700%7CRed+Hat+Display:400,700&display=swap" rel="stylesheet">
+
+
+<style>
+<!--
+:root {
+	/*font-size:16px;*/
+}
+body {
+	font-family: 'Lato', sans-serif;
+	background-color:#efefee;
+	margin:0;
+	color:#333333;
+}
+p {
+	font-family: 'Lato', sans-serif;
+	font-size: 1rem;
+	font-weight: 400;
+	line-height:1.4rem;
+	color:#333333;
+	margin:0;
+}
+a {
+	color:#333399;
+	text-decoration:none;
+} 
+a:hover {
+	text-decoration:underline;
+}
+/* 
+a:focus, a:focus strong {
+	background-color:yellow;
+}
+*/
+
+header, nav, footer {
+	clear:both;
+}
+
+h1 {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight:400;
+	font-size: 2.625rem;
+	line-height:230px;
+	margin:0;
+}
+h2 {
+	font-family: 'Red Hat Display', sans-serif;
+	font-weight:400;
+	font-size: 2rem;
+	line-height:1.85rem;
+	margin-bottom: 12px;
+}
+h2 a {
+	text-decoration:none;
+}
+h2 a:hover {
+	text-decoration:underline;
+}
+h2 strong {
+    display: block;
+}
+.skip {
+	visibility:hidden;
+	position:absolute;
+}
+
+.alerta {
+	background-color:#333333; 
+	width:100%; 
+	padding: 16px 0px 16px 0px;
+}
+
+.alertamsg {
+	width: 90%;
+	max-width: 1100px;
+	padding: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	color:#ffffff;
+	
+}
+.info-icon {
+	width:38px;
+	float: left;
+    padding: 3px 20px 19px 0;
+}
+
+.id { 
+	width: 90%;
+	max-width: 1100px;
+	padding: 0px;
+	height:230px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.logo { 
+	padding: 0px;
+	float:left;
+	height:230px;
+}
+.description { 
+	width: 50%;
+	float:right;
+	margin:96px 0 0 0;
+}
+
+hr {
+	border-bottom: 1px #dcdcdb solid;
+    border-top: 0px;
+    clear: both;
+    margin: 0;
+}
+
+.areas {
+	width: 90%;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px 0 0 0;
+	height:auto;
+}
+.content { 
+	width: 100%;
+	padding: 28px 0 0 0;
+}
+.contentarea{ 
+	width:95%;
+	padding: 0 0 20px 0;
+	margin: 0;
+}
+.area-acessibilidade  { 
+	width: 33.333%;
+	float:left;
+	padding: 0;
+	margin: 0;
+}
+.area-usabilidade{ 
+	width: 33.333%;
+	float:left;
+	padding: 0;
+	margin: 0;
+}
+.area-selo { 
+	width: 33.333%;
+	float:left;
+	padding: 0 0 80px 0;
+	margin: 0;
+}
+
+ul {
+	padding: 24px 0 0 0;
+	list-style: none;
+}
+li {
+	display: list-item;
+	font-weight:700;
+	font-size: 1.125rem;
+	line-height: 1.85rem;
+	padding: 8px 0 14px 30px;
+}
+li:before {
+	background-image: url(img/icon_arrow_bullets_blue.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    content: '';
+    display: inline-block;
+    height: 1em;
+    width: 1em;
+    margin: 0px 10px 0 -30px;
+}
+li.area-acessibilidade:before, li.area-usabilidade:before, li.area-selo:before {
+	background-image: none;
+}
+li a {
+	padding: 11px 0;
+}
+
+.logos {
+	width: 90%;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 0 0px 0;
+}
+.logos a {
+	padding: 0 5px 0 5px;
+}
+.logos img {
+	padding: 0 10px 0 0;
+	border:0;
+}
+.logosEU {
+	padding: 0 0 0 20px;
+}
+
+.rodape{
+	width: 90%;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 30px 0 30px 0;
+}
+.cookies{
+	background-color:#333399;
+	color: #fff;
+    width: 100%;
+	padding: 30px 0px;
+    border-top: #efefee solid 5px;
+	
+	/* no footer*/
+	position: fixed;
+    bottom: 0;
+}
+.cookies a{
+	color: #fff;
+	text-decoration:underline;
+}
+.cookiesmsg{
+	width: 90%;
+	max-width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.cookiesbuttons {
+	float:right;
+    margin-top: -20px;
+}
+.cookiesbutton {
+	background-color:#fff;
+	padding: 12px 30px;
+	border:0;
+	margin: 0px 10px;
+	border-radius: 30px;
+	font-family: "Lato";
+    font-size: 0.95rem;
+	font-weight:700;
+	cursor: pointer;
+}
+.cookiesbutton.yes {
+	background-color:#a2e7ae;
+	color: #333399;
+}
+.cookiesbutton.yes:hover {
+	background-color:#ffffff;
+	color: #00004d;
+	
+}
+.cookiesbutton.no {
+	background-color:#00004d;
+	color:#fff;
+}
+.cookiesbutton.no:hover {
+	background-color:#000010;
+	color:#fff;
+}
+.rodape {
+	color: #4F4F4F;
+}
+.screens {
+    position: absolute;
+    visibility: hidden;
+}
+.novajanela {
+    width: 19px;
+    height: 19px;
+    padding: 0 2px;
+}
+
+@media only screen and (max-width: 980px) {
+	h1 {
+		font-size: 2.625rem;
+		line-height:3rem;	
+	}
+	.id { 
+		width: 90%;
+		height:230px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.logo { 
+		height:auto;
+		margin:80px 0 0 0;
+	}
+	.description { 
+		width: 90%;
+		float:left;
+		margin:0px 0 0 0;
+	}
+	
+	.info-icon {
+		padding: 3px 20px 39px 0;
+	}
+	.cookiesbuttons {
+		margin-top: 0px;
+		float:none;
+		padding: 10px 0px 0 0;
+	}
+	.cookiesbutton	 {
+		margin: 0px 10px 10px 0;
+	}
+	
+	h2 strong {
+		display:contents;
+	}
+	
+	.areas {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.contentarea { 
+		width: 100%;
+		padding: 0 0 20px 0;
+	}
+	.area-usabilidade{ 
+		width:100%;
+	}
+	.area-acessibilidade  { 
+		width:100%;
+	}
+	.area-selo { 
+		width:100%;
+	}	
+	.logos {
+		padding: 50px 0 0 0;
+	}
+	.logosEU {
+		padding: 10px 0 0 0;
+		display:block;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+
+	h1 {
+		font-size: 2rem;
+	}
+	h2 {
+		font-size: 1.5rem;
+	}
+	.logo {
+		margin: 50px 0 0 0;
+	}
+	.areas {
+		padding:0;
+	}
+	
+	.info-icon {
+		padding: 3px 20px 80px 0;
+	}
+	.cookiesbuttons {
+		float:none;
+		margin-top: 0px;
+	}
+	.cookiesbutton {
+		margin: 10px 0px 10px 0;
+		
+	}
+}
+
+
+-->
+</style>
+</head>
+
+<body>
+
+<a href="#conteudo" class="skip">Saltar para o conteúdo</a>
+
+<header>
+
+	<div class="cookies" role="alert">
+		<div class="cookiesmsg">
+			Este <em lang="en">website</em> utiliza <em lang="en">cookies</em>. Por favor indique-nos a sua preferência.<br/>
+			<div class="cookiesbuttons"><button class="cookiesbutton yes" type="button">Sim, aceito <em lang="en">cookies</em></button><button class="cookiesbutton no" type="button">Não aceito <em lang="en">cookies</em></button><br/></div>
+			<small>Caso pretenda saber mais, consulte a nossa <a href="https://www.ama.gov.pt/web/agencia-para-a-modernizacao-administrativa/politica-de-privacidade" title="Abre o sítio da AMA numa nova página" target="_blank">política de privacidade</a>.</small>		
+		</div>
+	</div>
+	
+	<div class="alerta" role="alert" >
+		<p class="alertamsg">
+		<img srcset="img/icon_info.svg" src="img/icon_info.png" alt="Alerta: " width="38" height="38" class="info-icon" />
+		O acessibilidade.gov.pt está a melhorar. <br/>
+		A Equipa de Experiência Digital da AMA está a renovar o sítio <em lang="en">Web</em> e as ferramentas de apoio à aplicação das melhores práticas de acessibilidade. </p>
+	</div>
+
+	<div class="id">
+		<div class="logo"><h1><strong>acessibilidade</strong>.gov.pt</h1></div>
+		<div class="description">O sítio para a divulgação, partilha e promoção das melhores práticas de acessibilidade para conteúdos <em lang="en">Web</em> e aplicações móveis.</div>
+	</div>
+</header>
+
+<hr/> 
+
+<main>
+	<div class="areas" role="main" id="conteudo">
+		<div class="content">
+			<div class="area-acessibilidade">
+				<h2><strong>acessibilidade</strong>.gov.pt</h2>
+				<div class="contentarea">
+					<p>Recursos e ferramentas para melhorar a acessibilidade dos conteúdos digitais para pessoas com deficiências ou incapacidades.</p>
+					<ul>
+						<li><a href="https://acessibilidade.tk/wcag/wcag21-pt-PT.html#toc">Diretrizes WCAG 2.1</a></li>
+						<li><a href="https://data.dre.pt/eli/dec-lei/83/2018/10/19/p/dre/pt/html">Decreto-Lei n.º 83/2018</a></li>
+						<li><a href="http://accessmonitor.acessibilidade.gov.pt/amp/">Novo validador (<em lang="en">Accessmonitor</em>)</a></li>
+						<li><a href="https://amagovpt.github.io/gerador/#create">Gerador da Declaração de Acessibilidade <em lang="en">Web</em></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="area-usabilidade">
+				<h2><a href="https://usabilidade.gov.pt/"><strong>usabilidade</strong>.gov.pt</a></h2>
+				<div class="contentarea">
+					<p>Recursos e ferramentas para melhorar usabilidade e a experiência de utilização de sítios <em lang="en">Web</em> e aplicações móveis.</p>
+					<ul>
+						<li><a href="https://usabilidade.gov.pt/guia-web">Usabilidade para <em lang="en">Web</em></a></li>
+						<li><a href="https://usabilidade.gov.pt/guia-apps">Boas práticas para <em lang="en">Apps</em></a></li>
+						<li><a href="https://usabilidade.gov.pt/paginas-de-template"><em lang="en">Templates</em> de páginas</a></li>
+						<li><a href="https://usabilidade.gov.pt/componentes">Componentes reutilizáveis</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="area-selo">
+				<h2><a href="https://selo.usabilidade.gov.pt/"><strong>selo.usabilidade</strong>.gov.pt</a></h2>
+				<div class="contentarea">
+					<p>Selo que distingue a aplicação de boas práticas de Usabilidade e Acessibilidade com três níveis de excelência: bronze, prata e ouro.</p>
+					<ul>
+						<li><a href="https://selo.usabilidade.gov.pt/Selo_de_Usabilidade_e_Acessibilidade_v1_1.pdf"><em lang="en">Kit</em> de apoio (pdf)</a></li>
+						<li><a href="https://selo.usabilidade.gov.pt/requisitos.html">Requisitos</a></li>
+						<li><a href="https://amagovpt.github.io/kit-selo/checklists/"><em lang="en">Checklists</em> para recolha de evidências</a></li>
+						<li><a href="https://selo.usabilidade.gov.pt/candidatura.html">Candidatura</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</main>	
+
+<hr/> 
+
+<footer>
+	<div class="logos">
+		<a href="https://www.portugal.gov.pt/" title="Abre o sítio do Governo numa nova página" target="_blank"><img src="img/logo-republica-portuguesa.svg" alt="XXI Governo da Républica Portuguesa" width="136" height="47"/></a>
+		<a href="https://www.ama.gov.pt/" title="Abre o sítio da AMA numa nova página" target="_blank"><img src="img/ama.svg" alt="AMA - Agência para a Modernização Administrativa" width="135" height="45"/></a>
+		<span class="logosEU">
+			<a href="http://www.poci-compete2020.pt/" title="Abre o sítio do Compete 2020 numa nova página" target="_blank"><img src="img/compete2020b.svg" alt="Compete 2020" width="149" height="45"/></a>
+			<a href="https://www.portugal2020.pt/" title="Abre o sítio do Portugal 2020 numa nova página" target="_blank"><img src="img/portugal2020.svg" alt="Portugal 2020" width="105" height="46"/></a>
+			<a href="https://ec.europa.eu/info/funding-tenders/funding-opportunities/funding-programmes/overview-funding-programmes/european-structural-and-investment-funds_pt" title="Abre o sítio da União Europeia numa nova página" target="_blank"><img src="img/feei.svg" alt="União Europeia" width="170" height="46"/></a>
+		</span>
+	</div>
+	<div class="rodape">© 2020 AMA - Agência para a Modernização Administrativa, I. P. Todos os direitos reservados.</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script>
+
+$(document).ready(function() {
+	$("button.cookiesbutton.yes").click(function(){
+		createCookie()
+	});
+	
+	$("button.cookiesbutton.no").click(function(){
+		noCookie();
+	});
+	
+});
+
+if (document.cookie.indexOf('AcessibilidadeGovCookie=true') > -1) {
+	$(".cookies").hide();
+	
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-35831726-1', 'auto');
+	ga('send', 'pageview');
+	
+}else if(getCookie()==false || getCookie()=='false'){
+	$(".cookies").hide();
+}else{
+	$(".cookies").show();
+}
+
+function noCookie() {
+	$('.cookies').hide();
+	setCookie(false)  
+}
+
+function createCookie(){
+
+	var dataExpira = new Date()
+	dataExpira.setTime(dataExpira.getTime() + 60*24*60*60*1000);
+	document.cookie = 'AcessibilidadeGovCookie=true; expires=' + dataExpira +'; path=/';
+	$('.cookies').hide();
+	
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-35831726-1', 'auto');
+	ga('send', 'pageview');
+}
+
+function setCookie(id){
+    var AcessibilidadeGovCookie = id;
+    sessionStorage.setItem('AcessibilidadeGovCookie', AcessibilidadeGovCookie);
+}
+
+function getCookie(){
+    var AcessibilidadeGovCookie = sessionStorage.getItem('AcessibilidadeGovCookie');
+    return AcessibilidadeGovCookie;
+}
+
+</script>
+</body>
+</html>
